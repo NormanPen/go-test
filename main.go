@@ -16,9 +16,9 @@ func main() {
 	fmt.Println(calculator.MultiplyFromAToB(1, 10))
 	fmt.Println(composite.Add(2, 6))
 
-	point := composite.Point{
-		X: 3,
-		Y: 7,
-	}
+	point := composite.NewPoint(3, 7)
 	fmt.Println(point.X, point.Y)
+
+	composite.DemoCollections()
+	
 }
